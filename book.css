@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.book-list {
+  background: rgb(255, 255, 255);
+  padding: 1.0rem 1.0rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  max-width: 400px;
+}
+
+.book {
+  list-style: none;
+}
+
+.book:before {
+  border: 1px solid lightgray;
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.book:after {
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.book-photo {
+  float: left;
+  padding: 0.2rem 1.0rem 1.0rem 0;
+  width: 150px;
+  height: 200px;
+}
